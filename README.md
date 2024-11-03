@@ -116,7 +116,7 @@ dqn = DQN(max_memory=3000, discount=0.9)
 ```
 
 
-# Train the model with early stopping
+6. Train the model with early stopping
 
 ```python
 for epoch in range(1, number_epochs):
@@ -127,7 +127,7 @@ for epoch in range(1, number_epochs):
         break
 ```
 
-5. Results
+### Results
 
 After training, the model shows significant energy savings by making intelligent heating/cooling decisions.
 The AI model achieves up to 87% reduction in energy consumption compared to conventional systems.
