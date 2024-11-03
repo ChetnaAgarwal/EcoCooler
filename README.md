@@ -77,6 +77,7 @@ class Environment:
         ...
     def observe(self):
         # Observe the current state, reward, and game status
+        ...
 ```
 
 2. Neural Network Architecture (Brain)
@@ -106,6 +107,7 @@ class DQN:
         ...
     def get_batch(self, model, batch_size=10):
         # Retrieve and process batch data from memory
+        ...
 ```
 
 5. Training the AI Agent
@@ -119,6 +121,7 @@ env = Environment(optimal_temperature=(18.0, 24.0), initial_month=0, initial_num
 brain = Brain(learning_rate=0.00001, number_actions=5)
 dqn = DQN(max_memory=3000, discount=0.9)
 ```
+
 
 # Train the model with early stopping
 
