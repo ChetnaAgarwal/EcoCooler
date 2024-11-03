@@ -139,6 +139,7 @@ for epoch in range(1, number_epochs):
 After training, the model shows significant energy savings by making intelligent heating/cooling decisions.
 The AI model achieves up to 87% reduction in energy consumption compared to conventional systems.
 
+![Result](results.png)
 
 
 ### Conclusion
